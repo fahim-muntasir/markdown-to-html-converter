@@ -1,36 +1,40 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Markdown to HTML Converter
 
-## Getting Started
+This is a simple Markdown to HTML converter built with Next.js and TypeScript. Users can type Markdown syntax, and the app converts it to HTML in real-time, displaying both Markdown input and HTML output side by side.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Real-Time Conversion**: Converts Markdown to HTML as you type.
+- **TypeScript Support**: Provides type safety and helps catch errors during development.
+- **Simple UI**: A minimal, user-friendly interface with an editor and preview panel.
+- **Responsive Layout**: Adjusts to different screen sizes, making it accessible on desktop and mobile.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Tech Stack
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+- **Next.js**: React framework for server-rendered apps and SEO-friendly pages.
+- **TypeScript**: Adds type safety for better code quality.
+- **marked**: Lightweight Markdown parsing library to convert Markdown to HTML.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Screenshots
 
-## Learn More
+> *Add screenshots of the Markdown editor and HTML preview here.*
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. **Clone the repository**:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+   ```bash
+   git clone https://github.com/fahim-muntasir/markdown-to-html-converter.git
+   cd markdown-to-html-converter
 
-## Deploy on Vercel
+2. **Install dependencies**:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   ```bash
+   npm install
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+3. **Run the development server**:
+
+   ```bash
+   npm run dev
+
+4. Open http://localhost:3000 to view the app in your browser:
